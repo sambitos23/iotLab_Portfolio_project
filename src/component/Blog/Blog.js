@@ -32,8 +32,8 @@ function Blog() {
         },
     ])
     return (
-        <div className="mt-10" id="blog">
-            <p className="text-center font-extrabold text-secondary text-xl md:text-4xl pt-20">Blogs</p>
+        <div id="blog">
+            <p className="text-center font-extrabold text-secondary text-xl md:text-4xl pt-28">Blogs</p>
             <div className="w-full">
                 <Swiper
                     spaceBetween={50}
