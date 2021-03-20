@@ -42,16 +42,16 @@ function Navbar() {
                         </div>                                              
                     </div>                     
                     <div className="hidden md:inline-flex md:flex-row">
-                        <Link to="home" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon">
+                        <Link to="home" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
                             <span>HOME</span>
                         </Link>
-                        <Link to="project" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon">
+                        <Link to="project" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
                             <span>PROJECT</span>
                         </Link>
-                        <Link to="work" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon">
+                        <Link to="work" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
                             <span>WORK EXPERIENCE</span>
                         </Link>
-                        <Link to="blog" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon">
+                        <Link to="blog" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
                             <span>BLOG</span>
                         </Link>                       
                     </div>
@@ -67,16 +67,16 @@ function Navbar() {
                 </div>                                   
             </header>
             <animated.div style={fade} className="fixed top-16 w-full h-full bg-primary flex flex-col justify-center items-center md:hidden z-50">
-                <Link to="home" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon">
+                <Link to="home" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
                     <span>HOME</span>
                 </Link>
-                <Link to="project" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon">
+                <Link to="project" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
                     <span>PROJECT</span>
                 </Link>
-                <Link to="work" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon">
+                <Link to="work" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
                     <span>WORK EXPERIENCE</span>
                 </Link>
-                <Link to="blog" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon">
+                <Link to="blog" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
                     <span>BLOG</span>
                 </Link>
             </animated.div>
