@@ -32,9 +32,9 @@ function Workspace() {
     // const nextRef = React.useRef(null);
     return (
         <div className="z-20" id="work">
-            <div className=" hidden md:flex absolute w-6/12 h-96 lg:h-full bg-neon z-0 opacity-20" style={{clipPath: "polygon(81% 0, 78% 100%, 0 78%, 0 56%)"}}></div>
+            <div className=" hidden md:flex absolute w-6/12 h-96 lg:h-full bg-neon-default z-0 opacity-20" style={{clipPath: "polygon(81% 0, 78% 100%, 0 78%, 0 56%)"}}></div>
             <div className="mt-10 z-20">
-                <p className="text-center font-extrabold text-secondary text-xl md:text-4xl pt-20">Work Experience</p>
+                <p className="text-center font-extrabold text-secondary-default text-xl md:text-4xl pt-20">Work Experience</p>
                 <div className="w-full">
                     <Swiper
                         spaceBetween={50}
@@ -49,7 +49,7 @@ function Workspace() {
                         //   }}
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log('slide change')}
-                        className="md:w-8/12 text-secondary"
+                        className="md:w-8/12 text-secondary-default"
                     >
                         {
                             b.map(({id, ...otherprops}) =>(

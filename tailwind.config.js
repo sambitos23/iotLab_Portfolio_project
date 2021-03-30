@@ -13,27 +13,29 @@ module.exports = {
          '0%, 100%': { transform: 'translateY(20px)' },
          '50%': { transform: 'translateY(-20px)' },
        }
+      },
+      colors: {
+        primary:{
+          default:'#caf0f8',
+        },
+        secondary:{
+          default:'#023e8a',
+        },
+        lightskyblue:{
+          default:'#90e0ef',
+        },
+        neon:{
+          default:'#00b4d8',
+        },
+        lighternavyblue:{
+          default: '#0077b6',
+        }       
       }
-    },
-    backgroundColor: theme => ({
-      'primary': '#caf0f8',
-      'secondary': '#023e8a',
-      'lightskyblue': '#90e0ef',
-      'neon': '#00b4d8',
-      'white': '#FFFFFF'
-    }),
-    textColor: {
-      'primary': '#caf0f8',
-      'secondary': '#023e8a',
-      'lightskyblue': '#90e0ef',
-      'white': '#FFFFFF',
-      'neon': '#00b4d8',
-      'lighternavyblue' : '#0077b6',
     },
     variants: {
       extend: {
-        backgroundColor: ['active'],
-        textColor: ['active'],
+        // backgroundColor: ['active'],
+        // textColor: ['active'],
       },
     },
     plugins: [],

@@ -33,7 +33,7 @@ function Blog() {
     ])
     return (
         <div id="blog">
-            <p className="text-center font-extrabold text-secondary text-xl md:text-4xl pt-28">Blogs</p>
+            <p className="text-center font-extrabold text-secondary-default text-xl md:text-4xl pt-28">Blogs</p>
             <div className="w-full">
                 <Swiper
                     spaceBetween={50}
@@ -42,7 +42,7 @@ function Blog() {
                     pagination={{ clickable: true }}
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
-                    className="w-8/12 text-secondary"
+                    className="w-8/12 text-secondary-default"
                 >
                     {
                         b.map(({id, ...otherprops}) =>(

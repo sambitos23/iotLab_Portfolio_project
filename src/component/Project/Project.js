@@ -27,9 +27,9 @@ function Project() {
     ])
     return (
         <div className="overflow-hidden" id="project">
-            <div className="hidden md:flex absolute md:w-6/12 h-96 lg:h-full bg-neon right-0 z-0 opacity-20" style={{clipPath: "polygon(14% 0, 100% 49%, 100% 66%, 22% 100%)"}}></div>
+            <div className="hidden md:flex absolute md:w-6/12 h-96 lg:h-full bg-neon-default right-0 z-0 opacity-20" style={{clipPath: "polygon(14% 0, 100% 49%, 100% 66%, 22% 100%)"}}></div>
             <div className="mt-10">
-                <p className="text-center font-extrabold text-secondary text-xl md:text-4xl pt-10">Projects</p>
+                <p className="text-center font-extrabold text-secondary-default text-xl md:text-4xl pt-10">Projects</p>
                 <div className='md:flex md:justify-around mt-8 w-10/12 m-auto gap-3'>
                     {
                         b.map(({id, ...otherprops}) => (

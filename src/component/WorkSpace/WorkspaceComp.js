@@ -2,14 +2,14 @@ import React from 'react'
 
 function WorkspaceComp(props) {
     return (
-        <div className=" flex w-8/12 h-full m-auto mt-12 bg-primary rounded-lg shadow-lg">
+        <div className=" flex w-8/12 h-full m-auto mt-12 bg-primary-default rounded-lg shadow-lg">
             <div>
                 <img src={props.imageUrl} className="w-12 h-12 rounded-full bg-white mt-24 ml-10 mr-2 hidden md:flex" />
             </div>
             <div className="justify-center">
                 <p className=' text-sm p-12'>
                     {props.desc}<br/><br/>
-                    <a href={props.link}className="bg-secondary text-white px-4 py-2 rounded-lg">View Certificates</a>
+                    <a href={props.link} className="bg-secondary-default text-white px-4 py-2 rounded-lg">View Certificates</a>
                 </p>                
             </div>
         </div>

@@ -17,11 +17,11 @@ function Navbar() {
         scroll.scrollToTop()
     }
     return (
-        <div className="bg-gray-200 font-sans flex flex-col items-center">
-            <header className="bg-primary w-full px-4 py-3 flex justify-around border-b-4 fixed z-50">
+        <div className="font-sans flex flex-col items-center">
+            <header className="bg-primary-default w-full px-4 py-3 flex justify-around border-b-4 fixed z-50">
                 <div className="w-full md:flex justify-between items-center">
-                    <div className="flex justify-between items-center text-secondary">
-                        <button type="button" onClick={() => setB(!b)} className="text-gray-200 md:hidden hover:text-gray-400 focus:outline-none">
+                    <div className="flex justify-between items-center text-secondary-default">
+                        <button type="button" onClick={() => setB(!b)} className="text-neon-default md:hidden hover:text-gray-400 focus:outline-none">
                             {b === false ? 
                                 <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
                                 :
@@ -29,9 +29,9 @@ function Navbar() {
                             }
                         </button> 
                         <img src={web} className="w-9 h-9 ml-4" onClick={toggleHome}/>
-                        <p className="font-extrabold ml-4 text-secondary hidden md:flex">Portfolio</p>
+                        <p className="font-extrabold ml-4 text-secondary-default hidden md:flex">Portfolio</p>
 
-                        <div className="md:hidden text-primary flex px-2 py-2 bg-neon rounded-full items-center justify-center">
+                        <div className="md:hidden text-primary-default flex px-2 py-2 bg-neon-default rounded-full items-center justify-center">
                             {/* <p className="text-white">Contact Me</p> */}
                             <a href="tel:7319032302">
                                 <svg className="w-5 h-5 fill-content" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.397 32.326"><path d="M.966,3.611l3-2.991a2.124,2.124,0,0,1,3,0l4.5,5.982a2.25,2.25,0,0,1,0,2.991L9.627,11.423a51.664,51.664,0,0,0,4.834,5.646,60.216,60.216,0,0,0,6.474,5.508l1.775-1.768a2.262,2.262,0,0,1,3,0l6,4.486a1.968,1.968,0,0,1,0,2.991l-3,2.99c-1.657,1.653-3.811,1.123-6,0a63.987,63.987,0,0,1-12.289-9.358A70.662,70.662,0,0,1,.966,9.592c-.86-2.358-1.657-4.33,0-5.982" fill="#ade8f4"/></svg>
@@ -42,20 +42,20 @@ function Navbar() {
                         </div>                                              
                     </div>                     
                     <div className="hidden md:inline-flex md:flex-row">
-                        <Link to="home" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
+                        <Link to="home" activeClass="bg-neon-default text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary-default font-bold hover:text-white hover:bg-neon-default cursor-pointer">
                             <span>HOME</span>
                         </Link>
-                        <Link to="project" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
+                        <Link to="project" activeClass="bg-neon-default text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary-default font-bold hover:text-white hover:bg-neon-default cursor-pointer">
                             <span>PROJECT</span>
                         </Link>
-                        <Link to="work" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
+                        <Link to="work" activeClass="bg-neon-default text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary-default font-bold hover:text-white hover:bg-neon-default cursor-pointer">
                             <span>WORK EXPERIENCE</span>
                         </Link>
-                        <Link to="blog" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
+                        <Link to="blog" activeClass="bg-neon-default text-white" smooth={true} duration={500} spy={true} exact='true' className="ml-2 px-3 py-1 rounded text-secondary-default font-bold hover:text-white hover:bg-neon-default cursor-pointer">
                             <span>BLOG</span>
                         </Link>                       
                     </div>
-                    <div className="hidden text-primary md:flex w-40 text-sm px-4 py-2 bg-neon rounded-full items-center justify-center">
+                    <div className="hidden text-primary-default md:flex w-40 text-sm px-4 py-2 bg-neon-default rounded-full items-center justify-center">
                         <p className="text-white">Contact Me</p>
                         <a href="tel:7319032302">
                             <svg className="w-5 h-5 fill-content ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.397 32.326"><path d="M.966,3.611l3-2.991a2.124,2.124,0,0,1,3,0l4.5,5.982a2.25,2.25,0,0,1,0,2.991L9.627,11.423a51.664,51.664,0,0,0,4.834,5.646,60.216,60.216,0,0,0,6.474,5.508l1.775-1.768a2.262,2.262,0,0,1,3,0l6,4.486a1.968,1.968,0,0,1,0,2.991l-3,2.99c-1.657,1.653-3.811,1.123-6,0a63.987,63.987,0,0,1-12.289-9.358A70.662,70.662,0,0,1,.966,9.592c-.86-2.358-1.657-4.33,0-5.982" fill="#ade8f4"/></svg>
@@ -66,17 +66,17 @@ function Navbar() {
                     </div>    
                 </div>                                   
             </header>
-            <animated.div style={fade} className="fixed top-16 w-full h-full bg-primary flex flex-col justify-center items-center md:hidden z-50">
-                <Link to="home" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
+            <animated.div style={fade} className="fixed top-16 w-full h-full bg-primary-default flex flex-col justify-center items-center md:hidden z-50">
+                <Link to="home" activeClass="bg-neon-default text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary-default font-bold hover:text-white hover:bg-neon-default cursor-pointer">
                     <span>HOME</span>
                 </Link>
-                <Link to="project" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
+                <Link to="project" activeClass="bg-neon-default text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary-default font-bold hover:text-white hover:bg-neon-default cursor-pointer">
                     <span>PROJECT</span>
                 </Link>
-                <Link to="work" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
+                <Link to="work" activeClass="bg-neon-default text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary-default font-bold hover:text-white hover:bg-neon-default cursor-pointer">
                     <span>WORK EXPERIENCE</span>
                 </Link>
-                <Link to="blog" activeClass="bg-neon text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary font-bold hover:text-white hover:bg-neon cursor-pointer">
+                <Link to="blog" activeClass="bg-neon-default text-white" smooth={true} duration={500} spy={true} exact='true' onClick={() => setB(!b)} className="ml-2 px-3 py-1 rounded text-secondary-default font-bold hover:text-white hover:bg-neon-default cursor-pointer">
                     <span>BLOG</span>
                 </Link>
             </animated.div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import man from './images/man.svg';
+import man from '../images/man.svg';
 
 function Header() {
     return (
@@ -11,12 +11,12 @@ function Header() {
                 </div>  
                 <div className="flex w-full text-white  pt-24 md:pt-40 ">
                     <div className="w-full ml-28 md:ml-3 z-20">
-                        <p className="text-secondary md:text-lg font-bold tracking-wider"> Hi! I am <span className="bg-neon text-primary rounded-full px-3">Sambit Saha</span></p>
-                        <p className="text-secondary text-3xl md:text-5xl font-extrabold"> Web Developer</p>
-                        <button className=" px-2 py-1 text-sm md:px-4 md:py-2 md:bg-primary bg-neon text-secondary hover:bg-secondary hover:text-white font-bold mt-4">Download CV</button>                    
+                        <p className="text-secondary-default md:text-lg font-bold tracking-wider"> Hi! I am <span className="bg-neon-default text-primary-default rounded-full px-3">Sambit Saha</span></p>
+                        <p className="text-secondary-default text-3xl md:text-5xl font-extrabold"> Web Developer</p>
+                        <button className=" px-2 py-1 text-sm md:px-4 md:py-2 md:bg-primary-default bg-neon-default text-secondary-default hover:bg-secondary-default hover:text-white font-bold mt-4">Download CV</button>                    
                     </div>
                     <div className="z-0 w">
-                        <div className=" bg-primary w-40 lg:w-56 h-40 lg:h-56 absolute rounded-full top-40 right-40 z-0"></div>
+                        <div className=" bg-primary-default w-40 lg:w-56 h-40 lg:h-56 absolute rounded-full top-40 right-40 z-0"></div>
                         <svg className="absolute animate-spin-slow right-40 lg:right-80 top-64 md:top-80 w-14 h-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 96"><g transform="translate(-1472 -447)"><circle cx="6" cy="6" r="6" transform="translate(1472 447)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1500 447)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1528 447)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1528 447)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1556 447)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1584 447)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1584 475)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1556 475)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1528 475)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1500 475)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1472 475)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1472 503)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1500 503)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1528 503)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1556 503)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1584 503)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1584 531)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1556 531)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1528 531)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1500 531)" fill="#023e8a"/><circle cx="6" cy="6" r="6" transform="translate(1472 531)" fill="#023e8a"/></g></svg>
                     </div>                  
                 </div>                            
