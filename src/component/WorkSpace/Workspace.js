@@ -8,7 +8,7 @@ import WorkspaceComp from './WorkspaceComp';
 SwiperCore.use([Navigation]);
 
 function Workspace() {
-    const [b, setB] = useState([
+    const [b] = useState([
         {
             id: 1,
             imageUrl: 'https://avatars.dicebear.com/api/gridy/.svg',

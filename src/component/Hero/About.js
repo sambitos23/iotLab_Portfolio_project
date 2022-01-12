@@ -11,7 +11,7 @@ function About() {
                 </p>
             </div>
             <div className="flex justify-center items-center py-10">
-                <img src={pic} className="w-5/12 rounded-full border-4 border-separate border-blue-900"/>
+                <img src={pic} alt="profile" className="w-5/12 rounded-full border-4 border-separate border-blue-900"/>
             </div>
         </div>
     )

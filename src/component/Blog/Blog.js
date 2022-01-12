@@ -8,7 +8,7 @@ import BlogComp from './BlogComp';
 SwiperCore.use([Pagination]);
 
 function Blog() {
-    const [b, setB] = useState([
+    const [b] = useState([
         {
             id: 1,
             imageUrl: 'https://source.unsplash.com/user/erondu/1600x900',
